@@ -1,0 +1,8 @@
+ffconcat version 1.0
+file '../neutral.png'
+duration 2
+file '../smile.png'
+duration 0.35
+file '../neutral.png'
+duration 1.65
+file '../neutral.png'

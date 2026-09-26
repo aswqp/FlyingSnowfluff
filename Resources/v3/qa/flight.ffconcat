@@ -1,0 +1,12 @@
+ffconcat version 1.0
+file '../neutral.png'
+duration 0.4
+file '../takeoff-right.png'
+duration 0.6
+file '../cruise-right.png'
+duration 2
+file '../land-right.png'
+duration 0.7
+file '../neutral.png'
+duration 0.3
+file '../neutral.png'

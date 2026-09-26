@@ -1,0 +1,12 @@
+ffconcat version 1.0
+file '../gaze-front.png'
+duration 0.8
+file '../gaze-left.png'
+duration 0.9
+file '../gaze-front.png'
+duration 0.6
+file '../gaze-right.png'
+duration 0.9
+file '../gaze-front.png'
+duration 0.8
+file '../gaze-front.png'
