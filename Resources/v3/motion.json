@@ -1,0 +1,308 @@
+{
+  "version": 1,
+  "width": 384,
+  "height": 416,
+  "rig": {
+    "scale": 0.8434782608695652,
+    "offsetX": 30.052173913043475,
+    "offsetY": 58.982608695652175
+  },
+  "clips": {
+    "idle": {
+      "frames": [
+        "neutral"
+      ],
+      "durations": [
+        6
+      ],
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0
+    },
+    "lookLeft": {
+      "frames": [
+        "gaze-front",
+        "gaze-left"
+      ],
+      "durations": [
+        0.12,
+        1.2
+      ],
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0
+    },
+    "lookRight": {
+      "frames": [
+        "gaze-front",
+        "gaze-right"
+      ],
+      "durations": [
+        0.12,
+        1.2
+      ],
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0
+    },
+    "flyRight": {
+      "frames": [
+        "takeoff-right",
+        "cruise-right",
+        "land-right"
+      ],
+      "durations": [
+        0.6,
+        2.4,
+        0.8
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.2
+    },
+    "flyLeft": {
+      "frames": [
+        "takeoff-left",
+        "cruise-left",
+        "land-left"
+      ],
+      "durations": [
+        0.6,
+        2.4,
+        0.8
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.2
+    },
+    "wave": {
+      "frames": [
+        "neutral",
+        "wave",
+        "wave",
+        "neutral"
+      ],
+      "durations": [
+        0.15,
+        0.7,
+        0.8,
+        0.2
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.25
+    },
+    "shy": {
+      "frames": [
+        "neutral",
+        "shy",
+        "shy",
+        "neutral"
+      ],
+      "durations": [
+        0.15,
+        0.7,
+        0.8,
+        0.2
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.25
+    },
+    "tilt": {
+      "frames": [
+        "neutral",
+        "tilt",
+        "tilt",
+        "neutral"
+      ],
+      "durations": [
+        0.15,
+        0.7,
+        0.8,
+        0.2
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.25
+    },
+    "adjustVisor": {
+      "frames": [
+        "neutral",
+        "adjustVisor",
+        "adjustVisor",
+        "neutral"
+      ],
+      "durations": [
+        0.15,
+        0.7,
+        0.8,
+        0.2
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.25
+    },
+    "nap": {
+      "frames": [
+        "nap"
+      ],
+      "durations": [
+        3.6
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.2
+    },
+    "sway": {
+      "frames": [
+        "neutral",
+        "sway",
+        "sway",
+        "neutral"
+      ],
+      "durations": [
+        0.15,
+        0.7,
+        0.8,
+        0.2
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.25
+    },
+    "peek": {
+      "frames": [
+        "neutral",
+        "peek",
+        "peek",
+        "neutral"
+      ],
+      "durations": [
+        0.15,
+        0.7,
+        0.8,
+        0.2
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.25
+    },
+    "working": {
+      "frames": [
+        "neutral"
+      ],
+      "durations": [
+        3
+      ],
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0
+    },
+    "waiting": {
+      "frames": [
+        "waiting"
+      ],
+      "durations": [
+        2
+      ],
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0
+    },
+    "failed": {
+      "frames": [
+        "failed",
+        "focused"
+      ],
+      "durations": [
+        0.5,
+        1.5
+      ],
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0
+    },
+    "celebrate": {
+      "frames": [
+        "celebrate",
+        "smile"
+      ],
+      "durations": [
+        0.65,
+        0.8
+      ],
+      "loop": true,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0
+    },
+    "focused": {
+      "frames": [
+        "neutral",
+        "focused",
+        "focused",
+        "neutral"
+      ],
+      "durations": [
+        0.15,
+        0.7,
+        0.8,
+        0.2
+      ],
+      "loop": false,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "interruptAfter": 0.25
+    }
+  }
+}
