@@ -1,0 +1,8 @@
+@preconcurrency import AppKit
+
+let application = NSApplication.shared
+let appDelegate = FlyingSnowfluffAppDelegate()
+
+application.delegate = appDelegate
+application.setActivationPolicy(.accessory)
+application.run()
