@@ -6,11 +6,11 @@
 
 ## 下载后直接使用
 
-1. 在仓库的 **Releases** 页面下载 `飞行雪绒·爱弥斯-分享包-macOS-arm64.zip` 和同名 `.sha256`。
+1. 在仓库的 **Releases** 页面下载 `FlyingSnowfluff-share-macOS-arm64.zip` 和同名 `.sha256`。
 2. 在两者所在目录运行：
 
    ```zsh
-   shasum -a 256 -c 飞行雪绒·爱弥斯-分享包-macOS-arm64.zip.sha256
+   shasum -a 256 -c FlyingSnowfluff-share-macOS-arm64.zip.sha256
    ```
 
 3. 解压后，可直接在 Finder 中右键 `FlyingSnowfluff.app` 并选择“打开”，也可以把它移到 `~/Applications`。
