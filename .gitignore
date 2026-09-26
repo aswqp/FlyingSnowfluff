@@ -1,0 +1,21 @@
+.worktrees/
+.build*/
+.swiftpm/
+dist/
+work/
+.superpowers/
+node_modules
+npm-debug.log*
+.DS_Store
+*.xcuserstate
+
+# Large, reproducible QA captures. Keep the compact contact sheet and keyframe clips.
+Resources/v3/qa/preview-frames/
+Resources/v3/qa/runtime/
+
+# Historical internal plans contain machine-specific evidence. Publish only the
+# current repository design and implementation plan.
+docs/superpowers/plans/*
+!docs/superpowers/plans/2026-09-26-github-private-publication.md
+docs/superpowers/specs/*
+!docs/superpowers/specs/2026-09-26-github-private-publication-design.md

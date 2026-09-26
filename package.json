@@ -1,0 +1,17 @@
+{
+  "name": "flying-snowfluff-assets",
+  "version": "1.4.4",
+  "private": true,
+  "description": "Optional asset-generation tooling for the Flying Snowfluff macOS pet",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build:assets": "zsh scripts/build_assets.sh",
+    "build:lively": "node scripts/build_lively_assets.cjs",
+    "test:assets": "node --test scripts/lively_assets.test.cjs scripts/asset_pipeline_contract.test.cjs scripts/codex_skin_sync.test.cjs"
+  },
+  "devDependencies": {
+    "sharp": "0.35.4"
+  }
+}
